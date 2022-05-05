@@ -13,4 +13,5 @@ addn-hosts=/tmp/blacklist.txt
 ```
 3. Reboot your router via _Reboot Router_ button and enjoy less ads.
 
+Blacklist is being updated on a weekly basis.
 Feel free to use [blacklist-generator.sh](https://github.com/juris/dnsmasq-blacklist/blob/main/blacklist-generator.sh) to generate blacklist for any Dnsmasq setup.
