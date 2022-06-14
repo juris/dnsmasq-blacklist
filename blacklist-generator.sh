@@ -6,5 +6,5 @@ BLACKLIST_SOURCE_URLS="https://raw.githubusercontent.com/StevenBlack/hosts/maste
 
 mkdir -p output
 curl -fsL ${BLACKLIST_SOURCE_URLS} | sort -u | \
-grep "^0.0.0.0" | grep -v "www.googleadservices.com" | grep -v "ads.google.com" \
+grep "^0.0.0.0" | grep -v "www.googleadservices.com" | grep -v "ads.google.com" | \
 gzip > output/blacklist.txt.gz
